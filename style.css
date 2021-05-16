@@ -136,7 +136,7 @@ nav {
 
 .rocket-icon {
     position: absolute;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
 
 }
 
@@ -190,7 +190,7 @@ nav {
 }
 
 .benefits-header :hover+.benefits-dot {
-    color: red;
+    color: #4C40F7;
 }
 
 .benefits-text {
@@ -227,6 +227,10 @@ nav {
     justify-content: space-between;
 }
 
+.benefits-cards .far.fa-check-circle {
+    color: #4C40F7;
+}
+
 .benefits-cards div {
     display: flex;
     background-color: white;
@@ -246,7 +250,7 @@ nav {
 }
 
 .product-description {
-    margin: 0 20%;
+    margin: 0 10%;
     font-size: 25px;
 }
 
@@ -259,6 +263,7 @@ nav {
 .product-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0 10px;
 }
 
@@ -274,5 +279,66 @@ nav {
 }
 
 .product-img img {
-    max-width: 300px;
+    max-height: 250px;
+}
+
+@media screen and (max-width: 1000px) {
+    .product-items {
+        flex-direction: column;
+    }
+
+    .benefits-header {
+        font-size: 90px;
+    }
+
+    .benefits-cards {
+        flex-direction: column;
+    }
+}
+
+.packages {
+    padding: 5% 5%;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    border-bottom: rgb(209, 209, 209) solid 1px;
+    color: rgb(59, 59, 59);
+
+}
+
+.package-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.package-header-extra {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.blue-span {
+    color: #4C40F7;
+    font-size: 200;
+}
+
+.package-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.package-list-item {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.package-list-header {
+    font-size: 20px;
 }
