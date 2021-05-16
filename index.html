@@ -40,7 +40,7 @@
         <div class="note">About</div>
         <div class="about-container">
             <div class="about-text">
-                Help your business to the moon.
+                Help your business reach the moon.
             </div>
             <div class="about-image"><img src="images/rocket.jpg" alt="rocket"></div>
         </div>
@@ -98,14 +98,15 @@
     </div>
 
     <div class="packages">
-        <div style="flex:1"><img src="images/plant.png" alt="plant" style="width: 80%"></div>
+        <div style="flex:1" class="package-img-container"><img class="package-img" src="images/plant.png" alt="plant">
+        </div>
         <div class="package-container">
             <div class="package-header">
                 <span class="blue-span">$0</span> Down,
                 <span class="blue-span">$50</span> Per Month, No
                 Contract.
             </div>
-            <div class="package-header-extra">You own your domain, content, listing, and profiles. Cancel anytime with
+            <div class="package-header-extra">You own your domain, content and listing. Cancel anytime with
                 no fees or hassle.</div>
             <div class="package-list">
                 <div class="package-list-item">
@@ -132,8 +133,49 @@
                         comes from.</div>
                 </div>
             </div>
-
         </div>
+    </div>
+
+    <div class="contact-us">
+        <div class="contact-info">
+            <div class="blue-header" style="margin: 2% auto;">Let's work together</div>
+
+            <div class="contact-item">
+                <i class="far fa-envelope" onclick="location.href='mailto:ahmednawar2007@gmail.com';"
+                    style="cursor: pointer;"><span> &nbsp
+                        ahmednawar2007@gmail.com</span></i>
+
+            </div>
+            <div style="color: #4C40F7; font-size: 35px; margin:5px auto; font-weight: 900;">OR</div>
+            <div class="form-wrap">
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Name" name="name" class="input-item">
+                        <span><i class="fas fa-user fa-2x input-icon"></i></span>
+                    </div>
+                    <div class=" input-wrap">
+                        <input type="text" placeholder="Email" name="email" class="input-item">
+                        <span><i class="far fa-envelope fa-2x input-icon"></i></span>
+
+                    </div>
+                    <div class="input-wrap">
+                        <input type="text" placeholder="What are you working on" name="work" class="input-item">
+                        <span><i class="fas fa-briefcase fa-2x input-icon"></i></span>
+
+                    </div>
+                    <div class="input-wrap">
+                        <textarea rows="3" placeholder="Message" name="message" class="input-item"
+                            style="resize: none;"></textarea>
+                        <span><i class="far fa-paper-plane fa-2x input-icon"></i></span>
+
+                    </div>
+                    <div class="submit-wrap">
+                        <button type="submit" class="blue-button">Let's Talk</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="contact-form"></div>
     </div>
 
     <script src="app.js"></script>
