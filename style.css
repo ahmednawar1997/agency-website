@@ -13,8 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #3a348a;
-
+    background-color: rgb(52 59 137);
 }
 
 .logo {
@@ -82,7 +81,7 @@ nav {
         right: 0;
         height: 92vh;
         top: 8vh;
-        background-color: #3a348a;
+        background-color: rgb(52 59 137);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,7 +136,7 @@ nav {
 }
 
 .blue-button {
-    background-color: #4C40F7;
+    background-color: rgb(52 59 137);
     color: rgba(240, 240, 240, 0.87);
     font-size: 20px;
     border: none;
@@ -500,7 +499,7 @@ nav {
 
 .package-1,
 .package-3 {
-    transform: scale(0.95);
+    zoom: 0.95;
 }
 
 .package-1 {
