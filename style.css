@@ -355,10 +355,14 @@ nav {
 
 .services {
     padding: 5% 5%;
-    background-color: rgb(236, 236, 236);
     display: flex;
-    border-bottom: rgb(209, 209, 209) solid 1px;
     color: rgb(59, 59, 59);
+    background-image: url('images/footer-swoosh.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(98, 152, 253);
+
 
 }
 
@@ -437,6 +441,9 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 5% 0;
+    background-image: url('images/landing-swoosh.svg');
+    background-color: rgb(98, 152, 253);
+
 }
 
 .package-list {
@@ -562,9 +569,13 @@ nav {
 
 .contact-us {
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: rgb(98, 152, 253);
     display: flex;
     flex-direction: column;
+    background-image: url('images/footer-swoosh.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact-info {
