@@ -29,6 +29,7 @@ nav {
     justify-content: space-around;
     flex-direction: row;
     width: 45%;
+    z-index: 2;
 }
 
 .nav-links li {
@@ -487,5 +488,12 @@ nav {
 
     .input-item {
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blue-button {
+        margin-top: 15px;
+        width: 100%;
     }
 }
