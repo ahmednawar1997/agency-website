@@ -179,12 +179,13 @@ nav {
     background-size: 95%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .about {
         background-image: url("images/stars-background-reverse.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 80% 90%;
+        font-size: 70px;
     }
 }
 
@@ -319,13 +320,13 @@ nav {
     max-height: 250px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .product-items {
         flex-direction: column;
     }
 
     .benefits-header {
-        font-size: 90px;
+        font-size: 60px;
     }
 
     .benefits-cards {
@@ -388,13 +389,22 @@ nav {
     width: 70%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .packages {
         flex-direction: column;
     }
 
     .package-img {
         width: 50%;
+    }
+
+    .package-list {
+        flex-direction: column;
+
+    }
+
+    .package-list-item {
+        width: 100%;
     }
 }
 
@@ -413,15 +423,6 @@ nav {
     border-radius: 7%;
     padding: 40px;
 }
-
-@media screen and (max-width: 1000px) {
-    .contact-info {
-        padding: 3%;
-        margin: 1% 1%;
-    }
-
-}
-
 
 .contact-item {
     display: flex;
@@ -470,4 +471,21 @@ nav {
     height: 72px;
     pointer-events: none;
     color: #5d54dac2;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact-info {
+        padding: 3%;
+        margin: 1% 1%;
+    }
+
+    .contact-item {
+        font-size: 16px;
+
+    }
+
+    .input-item {
+        font-size: 13px;
+    }
 }
