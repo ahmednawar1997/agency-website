@@ -9,7 +9,9 @@ const navSlide = () => {
     });
     navLinks.forEach((link) => {
         link.addEventListener('click', () => {
-            toggleNavbar();
+            if (screen.width < 1024) {
+                toggleNavbar();
+            }
         })
     })
 
