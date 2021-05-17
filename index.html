@@ -15,6 +15,7 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
 </head>
 
 <body>
@@ -51,17 +52,24 @@
 
     <div class="benefits" id="benefits">
         <div class="benefits-header">
-            <span class="benefits-large-text">Design</span><span class="benefits-dot">.</span>
-            <span class="benefits-large-text">Develop</span><span class="benefits-dot">.</span>
-            <span class="benefits-large-text">Maintain</span><span class="benefits-dot">.</span>
+            <div class="animation-element slide-left">
+                <span>Design</span><span class="benefits-dot">.</span>
+            </div>
+            <div class="animation-element slide-right">
+                <span class="">Develop</span><span class="benefits-dot">.</span>
+            </div>
+            <div class="animation-element slide-left">
+
+                <span class="">Maintain</span><span class="benefits-dot">.</span>
+            </div>
         </div>
         <div class="benefits-text">
             <div class="note">We can help</div>
 
             <div class="benefits-cards">
-                <div>Grow your business &nbsp<i class="far fa-check-circle"></i></div>
-                <div>Bring more customers &nbsp<i class="far fa-check-circle"></i></div>
-                <div>Increase your reach &nbsp<i class="far fa-check-circle"></i></div>
+                <div>Grow your business&nbsp<i class="far fa-check-circle"></i></div>
+                <div>Bring more customers&nbsp<i class="far fa-check-circle"></i></div>
+                <div>Increase your reach&nbsp<i class="far fa-check-circle"></i></div>
             </div>
         </div>
     </div>
@@ -75,7 +83,7 @@
         </div>
 
         <div class="product-items">
-            <div class="product-item">
+            <div class="product-item animation-element slide-down">
                 <div class="product-img"><img src="images/mobile-icon.png" alt="mobile-icon"></div>
                 <div class="product-item-header">Mobile-First Design</div>
                 <div class="product-item-desc">We start building your site for mobile devices first, then we add on to
@@ -83,13 +91,13 @@
 
                 </div>
             </div>
-            <div class="product-item">
+            <div class="product-item animation-element slide-down">
                 <div class="product-img"><img src="images/respo.png" alt="mobile-icon"></div>
                 <div class="product-item-header">Fully Responsive</div>
                 <div class="product-item-desc">Your website will fit all mobile screens sizes, tablets, and desktop
                     sizes so new clients can access your site from anywhere.</div>
             </div>
-            <div class="product-item">
+            <div class="product-item animation-element slide-down">
                 <div class="product-img"><img src="images/optimization (2).png" alt="mobile-icon"></div>
                 <div class="product-item-header">Optimization</div>
                 <div class="product-item-desc">60% of all internet traffic is on mobile devices, so we optimize your
@@ -139,7 +147,7 @@
 
     <div class="packages">
         <div class="package-list">
-            <div class="package-item package-1">
+            <div class="package-item package-1 animation-element slide-left">
                 <div class="package-header">Graphic Design</div>
                 <div class="package-price">$20 <span class="package-month-header"></span></div>
                 <div class="package-content">
@@ -153,7 +161,7 @@
                 </div>
                 <div class="package-btn blue-button">Contact us</div>
             </div>
-            <div class="package-item package-2">
+            <div class="package-item package-2 animation-element slide-down">
                 <div class="package-header">Standard</div>
                 <div class="package-price">$50 <span class="package-month-header">/month</span></div>
                 <div class="package-content">
@@ -170,7 +178,7 @@
                 </div>
                 <div class="package-btn blue-button">Contact us</div>
             </div>
-            <div class="package-item package-3">
+            <div class="package-item package-3 animation-element slide-right">
                 <div class="package-header">Homerun</div>
                 <div class="package-price">$60 <span class="package-month-header">/month</span></div>
                 <div class="package-content">
@@ -229,8 +237,9 @@
             </div>
         </div>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="animations.js"></script>
 </body>
 
 </html>
