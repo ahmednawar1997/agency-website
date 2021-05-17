@@ -180,6 +180,13 @@ nav {
     background-size: 95%;
 }
 
+.note-about {
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(83, 83, 83);
+
+}
+
 @media screen and (max-width: 1200px) {
     .about {
         background-image: url("images/stars-background-reverse.png");
@@ -187,6 +194,11 @@ nav {
         background-repeat: no-repeat;
         background-size: 80% 90%;
         font-size: 70px;
+    }
+
+    .note-about {
+        font-size: 29px;
+
     }
 }
 
@@ -360,6 +372,11 @@ nav {
     font-size: 200;
 }
 
+.dark-blue-span {
+    color: rgb(17, 36, 82);
+    font-weight: 600;
+}
+
 .package-container {
     display: flex;
     flex-direction: column;
@@ -387,7 +404,7 @@ nav {
 }
 
 .package-img {
-    width: 70%;
+    width: 90%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -456,10 +473,10 @@ nav {
 }
 
 .input-item:focus {
-
     border: 2px solid #4C40F7 !important;
     background-color: rgba(255, 255, 255);
 }
+
 
 .input-icon {
     position: absolute;
@@ -473,6 +490,11 @@ nav {
     pointer-events: none;
     color: #5d54dac2;
 }
+
+.input-item:focus+.input-icon {
+    color: #130c8dc2;
+}
+
 
 
 @media screen and (max-width: 1024px) {
