@@ -1,7 +1,7 @@
 :root {
     --blue-main: #344189;
     --blue-dark: #112452;
-    --blue-other: #3e36a8;
+    --blue-other: #282898;
 }
 
 * {
@@ -241,7 +241,7 @@ nav {
 }
 
 .benefits-header :hover+.benefits-dot {
-    color: #4C40F7;
+    color: var(--blue-other);
 }
 
 .benefits-text {
