@@ -10,7 +10,7 @@
     box-sizing: border-box;
     color: #111029;
     font-family: 'Poppins', sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 nav {
