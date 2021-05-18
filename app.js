@@ -9,12 +9,12 @@ const navSlide = () => {
     });
     navLinks.forEach((link) => {
         link.addEventListener('click', () => {
-            if (screen.width < 1024) {
+            if ($(window).width() < 1024) {
+                console.log('toggle');
                 toggleNavbar();
             }
         })
     })
-
 
 }
 const toggleNavbar = () => {
