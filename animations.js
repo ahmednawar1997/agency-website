@@ -13,6 +13,8 @@ $(document).ready(function () {
 
         //iterate through elements to see if its in view
         $.each(animation_elements, function () {
+            if ($(this).hasClass('in-view'))
+                return;
 
             //get the element sinformation
             var element = $(this);
@@ -23,8 +25,6 @@ $(document).ready(function () {
             //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
             if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
                 element.addClass('in-view');
-            } else {
-                element.removeClass('in-view');
             }
         });
 
@@ -35,6 +35,6 @@ $(document).ready(function () {
         check_if_in_view()
     })
     //trigger our scroll event on initial load
-    $(window).trigger('scroll');
+    //$(window).trigger('scroll');
 
 });

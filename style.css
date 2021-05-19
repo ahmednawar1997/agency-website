@@ -1,5 +1,6 @@
 :root {
-    --blue-main: #0b3174;
+    /* --blue-main: #0b3174; */
+    --blue-main: #004182;
     --blue-dark: #112452;
     --blue-other: #0a3b89;
 }
@@ -16,7 +17,7 @@
 nav {
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
