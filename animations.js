@@ -30,8 +30,20 @@ $(document).ready(function () {
 
     }
 
+    var prevScrollpos = window.pageYOffset;
     //on or scroll, detect elements in view
     $(window).on('scroll resize', function () {
+
+        var currentScrollPos = window.pageYOffset;
+        const navHeight = $("nav").height();
+        if (prevScrollpos > currentScrollPos) {
+            $("nav").css("top", "0px");
+        } else {
+            $("nav").css("top", "-" + navHeight + "px");
+        }
+        prevScrollpos = currentScrollPos;
+
+
         check_if_in_view()
     })
     //trigger our scroll event on initial load

@@ -24,6 +24,7 @@ nav {
     align-items: center;
     min-height: 8vh;
     background-color: var(--blue-main);
+    transition: top 0.3s;
 }
 
 .logo {
