@@ -207,7 +207,7 @@ nav {
     line-height: 1.1;
     display: flex;
     flex-direction: column;
-    background-image: url("/images/stars-background.png");
+    background-image: url("../images/stars-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 95%;
@@ -222,7 +222,7 @@ nav {
 
 @media screen and (max-width: 1200px) {
     .about {
-        background-image: url("/images/stars-background-reverse.png");
+        background-image: url("../images/stars-background-reverse.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: 80% 90%;
@@ -250,8 +250,8 @@ nav {
     background-color: #e1e6eb;
     display: flex;
     flex-direction: column;
-    /* background-image: url("/images/stars-background-splash.png"); */
-    background-image: url("/images/splash-background.png");
+    /* background-image: url("../images/stars-background-splash.png"); */
+    background-image: url("../images/splash-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -388,7 +388,7 @@ nav {
     padding: 5% 5%;
     display: flex;
     color: rgb(59, 59, 59);
-    background-image: url('/images/footer-swoosh.svg');
+    background-image: url('../images/footer-swoosh.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -472,7 +472,7 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 5% 0;
-    background-image: url('/images/landing-swoosh.svg');
+    background-image: url('../images/landing-swoosh.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
